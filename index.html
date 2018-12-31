@@ -10,8 +10,9 @@
       <div id="dodger" style="bottom: 0px; left: 180px;"></div>
     </div>
     <script>
-    var dodger = document.getElementById('dodger');
+    
     function moveDodgerRight() {
+      var dodger = document.getElementById('dodger');
       var rightNumbers = dodger.style.right.replace('px', '');
       var right = parseInt(rightNumbers, 10);
       if (right > 0){
